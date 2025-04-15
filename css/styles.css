@@ -1,0 +1,117 @@
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+
+    --color-primary: #02897A;
+    --color-secondary: #4D8DFF;
+    --color-accent: #740A76;
+    --color-text: #22343D;
+    --color-white: #fff;
+    --color-error: #F03E3D;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-poppins);
+    color: var(--color-text);
+    background-color: var(--color-white);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    background-color: var(--color-white);
+}
+
+.header__logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.header__logo {
+    width: 36px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header__nav .nav__list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 73px;
+}
+
+.nav__link {
+    font-family: var(--font-poppins);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: var(--color-primary);
+}
+
+.header__auth {
+    display: flex;
+    gap: 21px;
+    list-style: none;
+}
+
+.auth__button {
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #173a56;
+    padding: 10px 24px;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth__button--signin {
+    background-color: transparent;
+    color: var(--color-text);
+    border-color: var(--color-text);
+}
+
+.auth__button--signup {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.auth__button--signup:hover {
+    background-color: #027066;
+}
+
+.header__logo-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+}
+
+.nav__link-str {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+    text-decoration: none;
+}
