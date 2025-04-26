@@ -139,14 +139,17 @@ body {
 }
 
 .hero-title {
+    font-family: var(--font-poppins);
     font-weight: 700;
     font-size: 40px;
     line-height: 150%;
     color: var(--color-text);
     margin-bottom: 25px;
+    max-width: 372px;
 }
 
 .hero-description {
+    font-family: var(--font-poppins);
     font-weight: 400;
     font-size: 18px;
     line-height: 156%;
@@ -162,16 +165,18 @@ body {
 
 /* base button styles */
 .btn {
-    padding: 14px 28px;
-    font-size: 16px;
-    font-weight: 600;
     border: none;
-    border-radius: 8px;
+    width: 178px;
+    height: 53px;
+    border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .primary-btn {
+    font-family: var(--font-poppins);
+    font-weight: 700;
+    font-size: 16px;
     background-color: var(--color-primary);
     color: var(--color-white);
 }
@@ -182,6 +187,7 @@ body {
 
 /* video button styles */
 .video-btn {
+    font-family: var(--font-poppins);
     display: flex;
     align-items: center;
     gap: 10px;
@@ -257,6 +263,7 @@ body {
 
 /* section title */
 .section-title {
+    font-family: var(--font-poppins);
     font-weight: 700;
     font-size: 32px;
     color: #22343d;
@@ -267,6 +274,7 @@ body {
 
 /* product name and description */
 .product-name {
+    font-family: var(--font-inter);
     font-weight: 600;
     font-size: 22px;
     color: #22343d;
@@ -274,6 +282,7 @@ body {
 }
 
 .product-description {
+    font-family: var(--font-inter);
     font-weight: 400;
     font-size: 16px;
     line-height: 162%;
@@ -283,6 +292,7 @@ body {
 
 /* signup button */
 .signup-button {
+    font-family: var(--font-poppins);
     font-weight: 700;
     font-size: 16px;
     color: #fff;
