@@ -34,49 +34,58 @@
       <li class="auth__item"><button type="button" class="auth__button auth__button--signup">Sign Up</button></li>
     </ul>
   </header>
-  <main>
-    <!-- SECTION HERO -->
-    <section>
-      <h1>Work at the speed of thought</h1>
-      <p>
-        Tools, tutorials, design and innovation experts, all in one place! The
-        most intuitive way to imagine your next user experience.
-      </p>
-      <ul>
-        <li><button type="button">Get started</button></li>
-        <li><button type="button">Watch the Video</button></li>
-      </ul>
-      <img src="./images/hero-img.svg" alt="banner photo" width="610" height="555" />
-    </section>
-    <section>
-      <h2>Product was Built Specifically for You</h2>
-      <ul>
-        <li>
-          <img src="./images/First click tests.svg" alt="First click tests" width="54" height="54" />
-          <h3>First click tests</h3>
-          <p>While most people enjoy casino gambling,</p>
-        </li>
-        <li>
-          <img src="./images/Design surveys.svg" alt="Design surveys" width="54" height="54" />
-          <h3>Design surveys</h3>
-          <p>Sports betting, lottery and bingo playing for the fun</p>
-        </li>
-        <li>
-          <img src="./images/Preference tests.svg" alt="Preference tests" width="54" height="54" />
-          <h3>Preference tests</h3>
-          <p>The Myspace page defines the individual.</p>
-        </li>
-        <li>
-          <img src="./images/Five second tests.svg" alt="Five second tests" width="54" height="54" />
-          <h3>Five Second Tests</h3>
-          <p>Personal choices and the overall personality of the person.</p>
-        </li>
-      </ul>
-      <button type="button">sing up now</button>
-    </section>
-    <!-- endSECTION HERO -->
 
-    <!-- Business management section -->
+  <main>
+    <!-- #region hero banner -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Work at the speed of thought</h1>
+        <p class="hero-description">
+          Tools, tutorials, design and innovation experts, all in one place!
+          The most intuitive way to imagine your next user experience.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn primary-btn">Get started</button>
+          <button class="btn video-btn">
+            <span class="play-icon">▶</span>
+            <span class="video-text">Watch the Video</span>
+          </button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="./images/hero-img.svg" alt="banner photo" width="610" height="555" />
+      </div>
+    </section>
+
+    <section class="product-section">
+      <h2 class="section-title">Product was Built Specifically for You</h2>
+      <ul class="product-list">
+        <li class="product-item">
+          <img src="./images/first-click.svg" alt="First click tests" width="54" height="54" class="product-icon" />
+          <h3 class="product-name">First click tests</h3>
+          <p class="product-description">While most people enjoy casino gambling,</p>
+        </li>
+        <li class="product-item">
+          <img src="./images/design-surveys.svg" alt="Design surveys" width="54" height="54" class="product-icon" />
+          <h3 class="product-name">Design surveys</h3>
+          <p class="product-description">Sports betting, lottery and bingo playing for the fun</p>
+        </li>
+        <li class="product-item">
+          <img src="./images/preference-tests.svg" alt="Preference tests" width="54" height="54" class="product-icon" />
+          <h3 class="product-name">Preference tests</h3>
+          <p class="product-description">The Myspace page defines the individual.</p>
+        </li>
+        <li class="product-item">
+          <img src="./images/five-second.svg" alt="Five second tests" width="54" height="54" class="product-icon" />
+          <h3 class="product-name">Five Second Tests</h3>
+          <p class="product-description">Personal choices and the overall personality of the person.</p>
+        </li>
+      </ul>
+      <button type="button" class="signup-button">Sign up now</button>
+    </section>
+    <!-- #endregion hero banner -->
+
+    <!-- #region business management section -->
     <section>
       <h4>Effortless Validation for</h4>
       <h2>Management</h2>
@@ -96,9 +105,9 @@
       </p>
       <img src="./images/management.svg" alt="management" width="540" height="500" />
     </section>
-    <!-- endBusiness management section -->
+    <!-- #endregion business management section -->
 
-    <!-- Support section -->
+    <!-- #region support section -->
     <section>
       <img src="./images/support.svg" alt="support" width="540" height="500" />
       <h4>Easier decision making for</h4>
@@ -125,9 +134,9 @@
         </li>
       </ul>
     </section>
-    <!-- endSupport section -->
+    <!-- #endregion support section -->
 
-    <!-- Collaboration -->
+    <!-- #region collaboration -->
     <section>
       <h4>Optimisation for</h4>
       <h2>Collaborative</h2>
@@ -148,7 +157,7 @@
       </p>
       <img src="./images/collaboration.svg" alt="collaboration" width="540" height="500" />
     </section>
-    <!-- endCollaboration -->
+    <!-- #endregion collaboration -->
   </main>
 </body>
 
