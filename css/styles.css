@@ -308,3 +308,160 @@ body {
 .signup-button:hover {
     background-color: #027066;
 }
+
+/* Footer styles */
+.footer {
+    background: white;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container styles */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Text styles */
+.footer-text {
+    color: #22343d;
+    font-family: var(--font-poppins);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+/* business management section */
+.management-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 60px 84px;
+}
+
+
+.text-content {
+    max-width: 486px;
+}
+
+
+.management-header {
+    margin-bottom: 30px;
+}
+
+.management-description {
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    margin-bottom: 40px;
+}
+
+.management-category {
+    margin-bottom: 30px;
+}
+
+.img-box {
+    flex: 1;
+    max-width: 50%;
+}
+
+.management-title {
+    font-family: var(--font-poppins);
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+}
+
+.management-subtitle {
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+}
+
+.category-title {
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+}
+
+
+/* Input and button container */
+.phone-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+}
+
+.phone-input input {
+    background: white;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    padding: 10px 10px 10px 40px;
+    font-family: var(--font-inter);
+    font-size: 16px;
+    color: #02897A;
+    width: 325px;
+    height: 48px;
+}
+
+.phone-input input::placeholder {
+    color: #02897A;
+}
+
+.phone-input input:focus {
+    outline: none;
+    border-color: #027066;
+}
+
+.phone-input .signup-btn {
+    background: #02897A;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: var(--font-poppins);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 135px;
+    height: 39px;
+}
+
+.phone-input .signup-btn:hover,
+.phone-input .signup-btn:focus {
+    background: #027066;
+    outline: none;
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 24px;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 28px;
+}
+
+.logo svg path {
+    fill: #02897A;
+}
+
+.logo:hover svg path,
+.logo:focus svg path {
+    fill: #027066;
+}
